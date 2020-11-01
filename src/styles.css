@@ -1,0 +1,97 @@
+.protan-img {
+    margin-top: 25px;
+    margin-left: 400px;
+}
+
+.navbar-elements-down {
+    margin-top: 50px;
+}
+
+.divider {
+    margin-top: 60px;
+}
+
+.navbar-go-right {
+    margin-left: 400px;
+}
+
+.navbar-page {
+    margin-top: 30px;
+}
+
+.navbar-page-inside {
+    padding: 5px;
+    margin-left: 350px;
+}
+
+.search-bar {
+    margin-left: 350px;
+}
+
+.submit-button {
+    padding-right: 0px;
+}
+
+.greenbox {
+    background-color: #80c423;
+    width: 100%;
+    height: 5px;
+}
+
+body {
+    background-image: url("https://www.protan.com/Content/gfx/backgroundPattern.png");
+}
+
+.factory-img {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    background-color: white;
+}
+
+.card{
+    display: inline-block;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 2px #ccc;
+    width: 400px;
+    padding : 40px;
+    position: relative;
+    bottom: 350px;
+    left: 300px;
+    text-align: center;
+  }
+
+.card-hr {
+    background-color: #007bff;;
+    height: 3px;
+}
+
+.transparent-box{
+    width: 700px;
+    height: 280px;
+    background: rgba(0, 0, 0, 0.70);
+    position: relative;
+    left: 300px;
+    bottom: 370px;
+    padding: 20px;
+}
+
+.transparent-box-text {
+    color: white;
+    font-family: "Clan Condensed", sans-serif;
+    letter-spacing: 1px;
+    text-align: left;
+    
+}
+
+.transparent-box-button {
+    margin-left: 460px;
+    margin-top: 5px;
+}
+
+.btn {
+    padding-right: 40px;
+    padding-left: 40px;
+}
