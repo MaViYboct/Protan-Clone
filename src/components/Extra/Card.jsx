@@ -9,7 +9,7 @@ function Card (props) {
           <hr class="card-hr"/>
           <p>{props.extra}</p>
 
-          <button class="btn btn-primary btn-lg"><strong>READ MORE</strong></button>
+          <button class="btn btn-primary btn-lg btn-three-boxes"><strong>READ MORE</strong></button>
         </div>
       );
   }

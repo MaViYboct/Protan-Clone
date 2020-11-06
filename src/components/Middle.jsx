@@ -16,7 +16,7 @@ function createCard(data) {
 
 function Middle() {
     return (
-        <div>
+        <div className="body">
             <img class="factory-img" src="./images/middle-img.jpg" alt="protan image"/>
             <div class="transparent-box">
               <h2 class="transparent-box-text"> <strong> SEDUM ROOF AT EQUINOR HEADQUARTERS, <br></br> FORNEBU, NORWAY </strong> </h2>
