@@ -1,35 +1,40 @@
 .protan-img {
-    margin-top: 25px;
-    margin-left: 400px;
+    /*margin-top: 25px;
+    margin-left: 400px; */
+    margin-top: 2%;
+    margin-left: 20%;
 }
 
 .navbar-elements-down {
-    margin-top: 50px;
+    /*margin-top: 50px;*/
+    margin-top: 3%;
 }
 
 .divider {
-    margin-top: 60px;
+    /* margin-top: 60px; */
+    margin-top: 3.5%;
 }
 
 .navbar-go-right {
-    margin-left: 400px;
+    /* margin-left: 400px; */
+    margin-left: 20%;
 }
 
 .navbar-page {
-    margin-top: 30px;
+    /* margin-top: 30px; */
+    margin-top: 1%;
 }
 
 .navbar-page-inside {
-    padding: 5px;
-    margin-left: 350px;
+    /* padding: 5px; */
+    padding: 0.3%;
+    /* margin-left: 350px; */
+    margin-left: 19%;
 }
 
 .search-bar {
-    margin-left: 350px;
-}
-
-.submit-button {
-    padding-right: 0px;
+    /* margin-left: 350px; */
+    margin-left: 19%;
 }
 
 .greenbox {
@@ -51,6 +56,7 @@
     background-color: white;
 }
 
+/*TODO: MOBIL ICIN FIXLE**********************************************************************************************************/
 .card{
     display: inline-block;
     border: 1px solid #eee;
@@ -59,15 +65,17 @@
     padding : 40px;
     position: relative;
     bottom: 350px;
-    left: 300px;
+    left: 300px; 
     text-align: center;
   }
+/*--------------------------------------------------------------------------------------------------------------------------------*/
 
 .card-hr {
     background-color: #007bff;;
     height: 3px;
 }
 
+/*TODO: MOBIL ICIN FIXLE*********************************************************************************************************/
 .transparent-box{
     width: 700px;
     height: 280px;
@@ -90,10 +98,11 @@
     margin-left: 500px;
     margin-top: 5px;
 }
+/*--------------------------------------------------------------------------------------------------------------------------------*/
 
 .btn-three-boxes {
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 .footer {
