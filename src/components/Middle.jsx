@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "./Extra/Card.jsx";
 import data from "../data.js";
+import MiddleCards from "./Extra/MiddleCards.jsx"
 
 
 function createCard(data) {
@@ -17,6 +18,7 @@ function createCard(data) {
 function Middle() {
     return (
         <div className="body">
+          
             <img class="factory-img" src="./images/middle-img.jpg" alt="protan image"/>
             <div class="transparent-box">
               <h2 class="transparent-box-text"> <strong> SEDUM ROOF AT EQUINOR HEADQUARTERS, <br></br> FORNEBU, NORWAY </strong> </h2>
@@ -25,6 +27,8 @@ function Middle() {
             </div>
             {data.map(createCard)}
 
+            
+            <MiddleCards />
         </div>
     )
 }
