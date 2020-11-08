@@ -137,17 +137,19 @@
 
 .middle-first-card {
     border-style: solid; 
-    margin-left: 5%;
+    margin-left: 10%;
     margin-right: 5%;
     width: 30%;
     height: 30%;
     padding: 1%;
+    margin-top: 5%;
 }
 
 .middle-second-card {
     width: 50%;
     margin-left: 5%;
     margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 .middle-cards {
@@ -168,3 +170,54 @@
     margin-bottom: 2%;
 
 }
+
+.middle-cards-row {
+    margin-right: 15px;
+}
+
+
+
+/***********************************MOBILE***************************************************/
+
+
+
+@media only screen and (max-width: 1028px) {
+    .card{
+        position: static;
+        margin-left: 30%;
+        margin-bottom: 5%;
+    }
+
+    .transparent-box {
+        position: static;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 15%;
+    }
+
+    .social-media {
+        margin-left: 70%; 
+    }
+
+    .search-bar {
+        margin-left: 0%;
+    }
+
+    .submit-button {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .navbar-page-inside {
+        margin-left: 0%;
+    }
+
+    .protan-img {
+        margin-left: 0%;
+    }
+
+    .form-inline {
+        margin-left: 170px;
+    }
+}
+

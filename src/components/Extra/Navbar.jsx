@@ -15,8 +15,8 @@ function Navbar () {
     return (
       <Router>
       <div>
-
-        <Nav variant="pills" activeKey="1">
+        
+        <Nav variant="pills" activeKey="1" >
 
         <img class="protan-img" src="./images/protan.png" alt="protan-img"/>
 
@@ -28,7 +28,7 @@ function Navbar () {
           
           <NavDropdown.Divider />
 
-          <NavDropdown.Item eventKey="0.1"> <Link to="/group-management">GROUP MANAGEMENT</Link></NavDropdown.Item>
+          <NavDropdown.Item eventKey="0.1"> GROUP MANAGEMENT</NavDropdown.Item>
 
           <NavDropdown.Divider />
 
@@ -121,11 +121,6 @@ function Navbar () {
        <div class= "navbar-elements-down">
 
         <NavDropdown class= "navbar-elements-down" title="ENGLISH" id="nav-dropdown">
-          <NavDropdown.Item eventKey="3.0">Action</NavDropdown.Item>
-          <NavDropdown.Item eventKey="3.1">Another action</NavDropdown.Item>
-          <NavDropdown.Item eventKey="3.2">Something else here</NavDropdown.Item>
-          <NavDropdown.Divider />
-          <NavDropdown.Item eventKey="3.3">Separated link</NavDropdown.Item>
         </NavDropdown>
 
        </div>

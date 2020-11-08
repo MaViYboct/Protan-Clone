@@ -6,7 +6,7 @@ function MiddleCards () {
         <div className="middle-cards">
             <div className="middle-cards-hr"></div>
 
-            <div className="row">
+            <div className="row middle-cards-row">
                     <div className="col-md-4" className="middle-first-card">
                         <a href="">
                             <h4><strong>Tools</strong></h4>
