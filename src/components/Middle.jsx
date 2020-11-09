@@ -2,6 +2,8 @@ import React from "react";
 import Card from "./Extra/Card.jsx";
 import data from "../data.js";
 import MiddleCards from "./Extra/MiddleCards.jsx"
+import BottomMiddleCards from "./Extra/BottomMiddleCards.jsx";
+import LowerMiddle from "./Extra/LowerMiddle.jsx";
 
 
 function createCard(data) {
@@ -29,6 +31,11 @@ function Middle() {
 
             
             <MiddleCards />
+
+            <BottomMiddleCards />
+
+            <LowerMiddle />
+
         </div>
     )
 }

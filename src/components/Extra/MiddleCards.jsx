@@ -5,7 +5,11 @@ function MiddleCards () {
     return (
         <div className="middle-cards">
             <div className="middle-cards-hr"></div>
-
+            <div className="row">
+            <h4 style={{marginLeft:"15%", marginRight:"45%"}}><u><strong>SHORTCUTS</strong></u></h4>
+            <h4><u><strong>PROJECTS</strong></u></h4>
+            </div>
+            
             <div className="row middle-cards-row">
                     <div className="col-md-4" className="middle-first-card">
                         <a href="">
@@ -24,6 +28,8 @@ function MiddleCards () {
                     <a href=""> <img className="middle-sec-img" src="./images/card4.jpg" alt="protan images"/> </a>
                 </div>
             </div>
+
+            <button className="btn btn-lg btn-primary bottom-middle-cards-button">MORE ITEMS</button>
 
         </div>
     )
